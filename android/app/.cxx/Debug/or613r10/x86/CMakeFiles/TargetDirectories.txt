@@ -1,0 +1,2 @@
+/Users/muhammadhamza/Documents/Projects/android/app/.cxx/Debug/or613r10/x86/CMakeFiles/edit_cache.dir
+/Users/muhammadhamza/Documents/Projects/android/app/.cxx/Debug/or613r10/x86/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2 @@
+/Users/muhammadhamza/Documents/Projects/android/app/.cxx/RelWithDebInfo/3s334e47/x86_64/CMakeFiles/edit_cache.dir
+/Users/muhammadhamza/Documents/Projects/android/app/.cxx/RelWithDebInfo/3s334e47/x86_64/CMakeFiles/rebuild_cache.dir

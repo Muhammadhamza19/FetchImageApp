@@ -1,0 +1,85 @@
+name: image_app
+
+description: image_app.
+
+version: 0.0.1+1
+
+environment:
+  sdk: ">=3.1.0 <4.0.0"
+
+dependencies:
+  flutter: #flutter sdk
+    sdk: flutter
+
+  get: ^4.6.5 #getx state manager
+  fast_cached_network_image: ^1.2.0 #image loading
+
+  shared_preferences: ^2.5.2 # storage
+
+  shimmer: ^3.0.0 #loading effect
+
+  permission_handler: ^11.3.1 # for permissions
+  intl: ^0.20.2 # for date time format
+  device_info_plus: ^11.3.0 #device info
+  webview_flutter: ^4.10.0  #webview
+  package_info_plus: ^8.3.0 #package info
+  http: ^1.4.0
+  hive_ce: ^2.11.3 #local database
+  path: ^1.9.1
+  flutter_screenutil: ^5.9.3
+  encrypt: ^5.0.3
+  palette_generator_master: ^1.0.1
+
+   
+
+dev_dependencies: #dev dependencies
+  # flutter_native_splash: ^2.0.6+1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  build_runner: ^2.0.5 #generate scripts
+  json_serializable: ^6.5.4 #json serializable
+  flutter_native_splash: ^2.3.3
+  flutter_lints: ^6.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/icons/community_app.png"
+
+flutter_native_splash:
+  android: true
+  ios: true
+  web: false
+  fullscreen: true
+
+  # Default splash (used when no flavor is set)
+  color: "#ffffff"
+  image: assets/images/icons/image.png
+  
+
+  color_dark: "#000000"
+
+
+  android_12:
+    image: assets/images/icons/image.png
+    icon_background_color: "#ffffff"
+    image_dark: assets/images/icons/image.png
+    icon_background_color_dark: "#000000"
+
+
+
+flutter: #external paths and properties
+  uses-material-design: true
+  # assets:
+  #   - assets/images/
+  #   - assets/images/icons/
+    
+  # fonts:
+    # - family: Popins
+    #   fonts:
+    #     - asset: assets/fonts/poppins/Poppins-Regular.ttf
+    #       style: italic
